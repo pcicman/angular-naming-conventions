@@ -2,32 +2,36 @@
 # Opinionated naming conventions for angular (< 2.x) application development
 
 ### Application namespace
+
 > NOTE: Angular 2.0 drops angular#module() syntax and replaces it with [ES6 modules](http://exploringjs.com/es6/ch_modules.html). Using namespaces as you know them from other languages (concepts often ported from java) will be therefore obsolete.
 - Per the above use simple name unique in your application portfolio. _If you are forced by guidelines, use enterprise domain namespace_
 - Example: `lowtatras`
 - Use as: 
-    - module namespace  
+    - Module namespace.  
 - Do not use:
-    - as namespace for services    
+    - As namespace for services.    
+
 
 ### Application prefix
 - Derived from your application namespace.
 - Keep it short.
-- Do not use `ng`, `$`, `ui`, `uib`
-- Example: `lt` (derived from `low tatras`)
+- Do not use `ng`, `$`, `ui`, `uib`.
+- Example: `lt` (derived from `low tatras`).
 - Use as:
-    - service prefix `ltModel`
-    - directive prefix `ltCard`
-    - filter prefix `ltValue`
-    - constant prefix `LT_HIGHEST_POINT`
+    - Controller prefix `LtHomeCtrl` (PascalCase).
+    - Service prefix `ltModel`.
+    - Directive prefix `ltCard`.
+    - Filter prefix `ltValue`.
+    - Constant prefix `LT_HIGHEST_POINT`.
 - Do not use:
-    - in directory or file names    
+    - In directory or file names.    
 
 
 ### Annotated structure    
 - Example application prefix (long form): `lowtatras`
 - Derived prefix for directives, filters and services (short form): `lt`
 - Derived prefix for controllers and object constructors: (short form first character uppercase)`Lt`
+
 ```
 .
 ├── app/
