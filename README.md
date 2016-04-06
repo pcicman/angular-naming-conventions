@@ -2,8 +2,8 @@
 # Opinionated naming conventions for angular (< 2.x) application development
 
 ### Application namespace
-
 > NOTE: Angular 2.0 drops angular#module() syntax and replaces it with [ES6 modules](http://exploringjs.com/es6/ch_modules.html). Using namespaces as you know them from other languages (concepts often ported from java) will be therefore obsolete.
+
 - Per the above use simple name unique in your application portfolio. _If you are forced by guidelines, use enterprise domain namespace_
 - Example: `lowtatras`
 - Use as: 
