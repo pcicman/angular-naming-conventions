@@ -23,8 +23,6 @@
     - Directive prefix `ltCard`.
     - Filter prefix `ltValue`.
     - Constant prefix `LT_HIGHEST_POINT`.
-- Do not use:
-    - In directory or file names.    
 
 
 ### Annotated structure    
